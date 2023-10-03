@@ -25,7 +25,7 @@ h1{
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(#1354ce,rgb(7, 33, 151)); 
+    background-image: linear-gradient(#0062a3,#003c64); 
     border-radius: 10px;
     padding: 40px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
@@ -50,7 +50,7 @@ h1{
 .formLogin input {
    
     width: 335px;
-    background-color: #001486bd;
+    background-color: #00385e;
     padding: 15px;
     font-size: 14px;
     border: 1px solid #ccc;
