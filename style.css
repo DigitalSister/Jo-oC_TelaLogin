@@ -4,7 +4,33 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-image:linear-gradient(#414141,#000000) ;
+    background-color: #e0e0e0 ;
+}
+
+header{
+    background-color: #0081a8;
+    height: 95px;
+}
+
+.BH1{
+    width: 200px;
+    height: 125px;
+    margin-top: -95px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.BH2{
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+    background-color: #005e7a;
+
 }
 
 .page {
@@ -15,21 +41,39 @@ body {
     justify-content: center;
     width: 100%;
     height: 100vh;
+    margin-top: -90px;
    
 }
 h1{ 
     text-align: center;
+    scale: 0.75;
+    color: #0081a8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
+
+h4{ 
+    text-align: center;
+    color: #005e7a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.CM{
+    margin-top: -70px;
+}
+
+.JC{
+    margin-top: -25px;
+}
+
 
 .formLogin {
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(#0062a3,#003c64); 
     border-radius: 10px;
     padding: 40px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-    gap: 5px
+    gap: 5px;
     
 
 }
@@ -39,7 +83,7 @@ h1{
 }
 
 .formLogin h1 {
-    color: #ffffff;
+    color: #0081a8;
     padding: 0;
     font-weight: 500;
     font-size: 2.3em;
@@ -50,20 +94,21 @@ h1{
 .formLogin input {
    
     width: 335px;
-    background-color: #00385e;
+    background-color: #ffffff;
     padding: 15px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 2px solid #555555;
     margin-bottom: 30px;
     margin-top: 5px;
     border-radius: 15px;
     transition: all linear 160ms;
     outline: none;
+    margin-left: -30px;
 }
 
 
 .formLogin input:focus {
-    border: 1px solid #000000;
+    border: 2px solid #555555;
 }
 
 
@@ -71,14 +116,14 @@ h1{
     display: inline-block;
     margin-bottom: 30px;
     font-size: 13px;
-    color: #ffffff;
+    color: #005e7a;
     transition: all linear 160ms;
     text-decoration: none;
     
 }
 
 .formLogin a:hover {
-    color: #0c36c0;
+    color: #000000;
 }
 
 a{
@@ -86,16 +131,21 @@ a{
     margin-left: 100px;
     
 }
+
+
 .btn {
 
+    height: 50px;
     color: #ffffff;
+    background-color: #0081a8;
     font-size: 14px;
     font-weight: 600;
     border: none !important;
     transition: all linear 160ms;
     cursor: pointer;
-    margin: 0 ;
     width: 400px !important;
+    border-radius: 15px;
+    
 
 }
 
@@ -109,8 +159,8 @@ a{
 .container {
     display: inline-block;
     position: relative;
-
     width: 300px;
+
   }
   
   .container figcaption {
@@ -120,10 +170,10 @@ a{
 
   }
   #login{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
   }
   #senha{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
   }
 
   @media (min-width: 100px) and (max-width: 369px){
