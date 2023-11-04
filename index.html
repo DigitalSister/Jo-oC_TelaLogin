@@ -47,7 +47,7 @@
         
             <input type="password" placeholder="Senha" id="senha">
             
-            <a href="/">Esqueci minha senha</a>
+            <a href="" onclick="EsqueciSenha()">Esqueci minha senha</a>
 </figure>
 
            
@@ -71,28 +71,33 @@
             if(login == "nayara" && senha == "1234"){
                 alert('Bem vinda');
                 window.open('https://digitalsister.github.io/JoaoC_AposLogin/');
-
-            } 
+            }
            
             if(login == "Thainá frança" && senha == "baby1719"){
                 alert('Bem vinda');
                 window.open('https://digitalsister.github.io/JoaoC_AposLogin/');
-                
             }
+
             if(login == "jhonata" && senha == "1234"){
                 alert('Bem vindo');
                 window.open('https://digitalsister.github.io/JoaoC_AposLogin/');
-                
             }
+
             if(login == "tiocavalcante" && senha == "1234"){
                 alert('Bem vindo');
                 window.open('https://digitalsister.github.io/JoaoC_AposLogin/');
-                
-            }else{
+            }
+
+            else{
                 alert('Usuario ou senha incorretos');
             }
-           
         }  
+
+        function EsqueciSenha(){
+            window.alert("Entre em contato com o suporte");
+        }
+
+
 
         </script>
     
